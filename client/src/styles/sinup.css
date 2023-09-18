@@ -1,0 +1,78 @@
+/* Default styles for the signup form */
+.sinup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg {
+    background-image: linear-gradient(to top, #f5f5f5, #e0e0e0);
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sinup .Box h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  .sinup .Box button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+  }
+  .sinup .Box button[type="submit"]:hover {
+    background-color: #555;
+  }
+  .sinup .Box p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sinup .Box p a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sinup .Box p a:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+  .Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .sinup.Box{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  /* Media query for screens smaller than 600px (adjust the breakpoint as needed) */
+  @media (max-width: 600px) {
+    .sinup .Box {
+      width: 80%; /* Adjust the width for small devices */
+    }
+  }
+  
+  /* Media query for screens larger than 1200px (adjust the breakpoint as needed) */
+  @media (min-width: 1200px) {
+    .sinup .Box {
+      width: 400px; /* Adjust the width for large devices */
+    }
+  }
+  

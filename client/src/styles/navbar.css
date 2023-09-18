@@ -1,0 +1,84 @@
+
+
+@media (max-width: 1000px) {
+    .navbar-toggler {
+      margin: 10px 0;
+    }  
+    .navbar-nav .nav-link {
+      padding: 10px 0;
+      text-align: center;
+    }
+    #res{
+        background-color: whitesmoke;
+        height: auto;
+    }
+    #login:hover{
+        font-size: 1.2rem;
+    }
+    #sinup:hover{
+        font-size: 1.2rem;
+    }
+    .nav-item:hover{
+        font-size: 1.2rem;
+    }
+  }
+
+  /* navbar.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-toggler {
+  margin: 10px 0;
+  background-color: transparent; /* Transparent background for the toggler button */
+  border: none;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  padding: 10px 20px; /* Increased padding for better touch experience */
+  text-align: center;
+  font-size: 1rem; /* Slightly smaller font size */
+  transition: font-size 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  font-size: 1.2rem; /* Larger font size on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1000px) {
+  .navbar-toggler {
+      margin: 10px 0;
+  }
+
+  .navbar-nav .nav-link {
+      padding: 10px 0;
+      text-align: center;
+  }
+
+  .navbar-collapse {
+      background-color: #333; /* Background color for the collapsed menu */
+      border-radius: 5px; /* Rounded corners for the collapsed menu */
+      padding: 10px;
+  }
+
+  .navbar-nav .nav-link:hover {
+      font-size: 1.2rem;
+  }
+}
